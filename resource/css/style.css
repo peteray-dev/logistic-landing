@@ -1,0 +1,366 @@
+/* color #10ac84 */
+
+/* -------------------------------------- */
+    /* ----General--- */
+/* -------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    color: rgba(0, 0, 0, 0.568);
+    font-size: 16px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    background-color: white;
+    /* overflow-x: hidden; */
+}
+/* -------------------------------------- */
+    /* ----reusable componet--- */
+/* -------------------------------------- */
+.row{
+    width: 1140px;
+    margin: 0px auto;
+}
+h1{
+    color: #10ac84 ;
+    text-transform: uppercase;
+    font-size: 200%;  
+}
+span{
+    padding: 50px;
+}
+
+/* -------------------------------------- */
+    /* ----Header--- */
+/* -------------------------------------- */
+.head{
+    background-color: #f0fefa;
+    /* height: 80vh; */
+
+}
+.mission
+{
+    color: white;
+    background-color: #10ac84;
+    text-align: center;
+    padding: 10px;
+}
+.mission a{
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.header{
+    background-color: #f0fefa;
+    height: 80vh;
+}
+.header h1{
+    width: 60%;
+    margin-top: 100px;
+    animation-duration: 1s; 
+}
+.header h1:hover{
+    animation:  animate__backInLeft;
+}
+
+.logistic-can{
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    left: 55%;
+    top: 30%   ;
+    z-index: 0;
+}
+.logo{
+    width: 10%;
+    /* height: 50vh; */
+    margin: 10px 0px 0px 20px;
+}
+.info-ask{
+    position: absolute;
+    width: 45%;
+    z-index: 1;
+}
+.find-out{
+    background-color: white;
+    float: left;
+    padding: 20px;
+}
+.find-out input{
+    border: none;
+    outline: none;
+}
+.find-out-side{
+    background-color: white;
+}
+.find-out-side select{
+    padding: 20px;
+    outline: none;
+    border: none;
+    color: rgba(0, 0, 0, 0.568);
+}
+
+.input{
+    padding: 8px;    
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: #10ac84;
+    border-color: #10ac84;
+}
+.info-site{
+    margin-left: 200px;
+    width: 100%;
+}
+
+/* -------------------------------------- */
+    /* ----About us--- */
+/* -------------------------------------- */
+.about-us-section{width: 100%;}
+h2{
+    font-size: 160%;
+    font-weight: 300;
+    text-align: center;
+    margin: 90px auto 0 ;
+}
+.about-us h2{
+    
+    letter-spacing: 2px;
+    width: 60%;
+    margin: 120px auto 0px;
+    
+}
+.about-us h4{
+    font-size: 90%;
+    width: 40%;
+    text-align: center;
+    margin:20px auto; 
+}
+.our-word{
+    text-align: center;
+    width: 27%;
+    /* margin: 40px; */
+    transition: background-color 5s color 5s;
+}
+.our-word:hover{
+    background-color: #10ac84;
+    color: white;
+    padding: 10px 5px;
+}
+
+/* -------------------------------------- */
+    /* ----About us--- */
+/* -------------------------------------- */
+.section-deal h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 60px 0 40px 0;
+}
+.sea-delivery{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6) ), url(../../vendor/images/logistics_OG.jpg);
+    background-size: cover;
+    width: 90%;
+    height: 80vh;
+    margin-left: 10%;
+
+}
+.patch-words{
+    background-color: #08a07a ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+    height: 55%;
+    margin: 40px;
+    position: relative;
+    top: 30%;
+    right: 12%;
+    animation: animate__shakeY 2s;
+   
+}
+.patch-words:hover{
+    animation: animate__shakeY 2s;
+}
+
+.sandralistic,
+.pally,
+.med,
+.oil-gas,
+.computer{
+    font-family: cursive;
+    font-size: 100%;
+    color: white;
+    animation: animate__lightSpeedInRight 1s;
+}
+.sandralistic:hover,
+.pally:hover,
+.med:hover,
+.oil-gas:hover,
+.computer:hover{
+    animation: animate__lightSpeedInRight 0.5s;
+}
+.sandralistic i,
+.pally i,
+.med i,
+.oil-gas i,
+.computer i{
+    font-size: 150%;
+    color: rgb(250, 250, 250);
+}
+.sandralistic{
+   position: relative;
+   /* left: 30%; */
+   margin-left: 30%;
+}
+.pally{
+   position: relative;
+   bottom: 80%;
+}
+.med{
+    position: relative;
+    bottom:76%;
+    /* right: 13%; */
+    margin-right: 30%;
+}
+.oil-gas{
+    position: relative;
+    bottom: 100%;
+    /* left: 20%; */
+    margin-left: 20%;
+    font-size: 100%;
+}
+.computer{
+    position: relative;
+    bottom: 90%;
+    /* right: 17%; */
+    margin-right: 20%;
+}
+
+/* -------------------------------------- */
+    /* ----Partner-- */
+/* -------------------------------------- */
+.section-partner{
+    background-color: #d1fbf0;
+    width: 100%;
+}
+.what-we-do h2{
+    color: black;
+    font-size: 200%;
+    width: 40%;
+    margin-bottom: 10px;
+}
+.what-we-do p{
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.process{
+    background-color: white;
+    padding: 20px 10px;
+    margin-right: 20px;
+    width: 30%;
+    height: 35vh;
+    text-align: center;
+    color: #095e48;
+    box-shadow: 2px 3px 10px #095e48 ;
+    transition: background-color 0.2s color 0.2s;
+} 
+.process:hover{
+    background-color:#095e48 ;
+    color: white;
+    
+}
+.process > h3,
+.process > p{
+    
+    padding-bottom: 5px;
+    
+    letter-spacing: 1px;
+   
+}
+.process > p{
+    font-size: 100%;
+}
+.process> h3{
+    padding-bottom: 20px;
+    font-size: 120% ;
+    
+}
+.process i{
+    font-size: 300%;
+}
+.testimony{
+    width: 40%;
+    margin-top: 50px;
+    text-align: center;
+}
+.testimony h4{
+    padding-bottom: 30px;
+}
+.testimony blockquote{
+    font-size: 120%;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.testimony cite{
+    color: #074635;
+}
+.testimony input{
+    margin: 0;
+    margin: 30px 0px;
+    color: white;
+}
+
+/* ----------------------------- */
+/* ---------Agreement-------- */
+/* --------------------------- */
+.agreement{
+    margin-top: 80px;
+    text-align: center;
+}
+.agreement img{
+    width: 100%;
+}
+.statement{
+    width: 30%;
+    margin-left: 120px;
+    font-size: 120%;
+}
+.statement h2{
+    border-bottom: 2px solid #095e48;
+    margin-bottom: 20px;
+}
+
+/* -------------------------- */
+/* --footer-- */
+/* -------------------------- */
+.footer{
+    margin: 100px auto 0px;
+    background-color:  #10ac84;
+}
+.footer h3{
+    padding-bottom: 20px;
+    color: white;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer ul li{
+    padding-bottom: 20px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.social li{
+    padding-bottom: 0px;
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 120%;
+}
+.download li img{
+    width: 80%;
+    height: 50px;
+}

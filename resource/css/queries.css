@@ -1,0 +1,163 @@
+
+
+/* ---for bigtablet to small computer range from 1024px - 1200px */
+@media only screen and (max-width: 1200px){
+    *{
+        font-size: 16px;
+    }
+    .row{
+        width: 1024px;
+        margin: 0px auto;
+    }
+    .logistic-can{
+        width: 40%;
+        height: 40%;
+        top: 40%;
+    }
+    .our-word-all{width: 80%; padding-left: 100px;}
+    .patch-words{font-size: 80%;}
+    
+    .sandralistic{top: 8%; left: 21%;}
+        .pally{bottom: 80%; left: 10%;}
+        .med{left: 7%; bottom: 74%;}
+        .computer{bottom: 90%; left: 5%;}
+        .oil-gas{bottom: 97%; left: 25%;}
+
+
+
+}
+
+
+
+
+
+/* ---for small tablet to big tablet, range from 768px - 1023px */
+@media only screen and (max-width: 1023px){
+    *{
+        font-size: 16px;
+    }
+    .row{
+        width: 768px;
+        margin: 0px auto;
+    }
+    .header{height: 60vh;}
+    .header h1{
+        width: 70%;
+        font-size: 170%;
+        margin-top: 50px;
+    }
+    .logistic-can{
+        width: 47%;
+        height: 35%;
+        top: 35%;
+        left: 50%;}
+
+        h2{font-size: 130%;}
+        .sea-delivery{height: 60vh;}
+        .patch-words{
+            width: 40%;
+            height: 50%;
+            margin: 30px;
+           
+        }
+        .section-deal h2{
+                padding-top: 0px;
+                margin: 20px;}
+        .sandralistic,
+        .pally,
+        .med,
+        .oil-gas,
+        .computer{
+            font-size: 90%;
+        }
+        .sandralistic{top: 10%; left: 21%;}
+        .pally{bottom: 65%; left: 15%;}
+        .med{left: 10%; bottom: 55%;}
+        .computer{bottom: 64%; left: 8%;}
+        .oil-gas{bottom: 70%; left: 25%;}
+
+        .process{margin-right:15px; padding-top: 10px;}
+        .process>p{letter-spacing: 0px;}
+        .process i{font-size: 250%;}
+        .testimony h4{margin-top: 30px; padding-bottom: 10px;}
+        .testimony blockquote{word-spacing: 1px; letter-spacing: 0px; width: 60%; margin: 0px auto;}
+       .statement h2{margin: 10px 0px;}
+       .download li img{width: 60%; height:40px ;}
+}
+
+
+
+
+/* ---for small phones to small tablet, range from 481px - 767px */
+@media only screen and (max-width: 767px){
+    *{
+        font-size: 14px;
+        overflow-x: none;
+    }
+    .row{
+        width: 481px;
+        margin: 0px auto;
+        
+    }
+    .header{height: 48vh;}
+    .header h1{
+        width: 80%;
+        font-size: 150%;
+        margin-top: 40px;
+    }
+    .logistic-can{
+        width: 47%;
+        height: 25%;
+        top: 25%;
+        left: 50%;}
+    .info-ask{width: 10%;}
+    .find-out{padding: 10px; font-size: 70%;}
+    .find-out-side select{padding: 10px;}
+    .input{padding: 4px;}
+    .about-us h2{margin: 40px auto 0px; letter-spacing: 0px; font-size: 100%;}
+    .about-us h4{font-size: 90%; margin-top: 5px;}
+    .sea-delivery{height: 40vh; margin-top:}
+    .patch-words{height: 58%; top: 25%;}
+    .section-deal h2{
+        padding-top: 0px;
+        font-size: 120%;
+        margin: 5px;}
+    .section-deal h4{font-size: 90%; margin-top: 5px;}
+    .sandralistic,
+    .pally,
+    .med,
+    .oil-gas,
+    .computer{
+        font-size: 80%;
+        
+    }
+    .sandralistic{top: 0%; left: 21%;}
+    .pally{bottom: 65%; left: 15%;}
+    .med{left: 14%; bottom: 55%;}
+    .computer{bottom: 67%; left: 12%;}
+    .oil-gas{bottom: 70%; left: 25%;}
+
+    .what-we-do h2{font-size: 140%; width: 50%; margin-top: 20px;}
+    .what-we-do p{font-size: 80%;}
+    .process{width: 40%; height: 30vh; margin-left: 50px;}
+    .process:last-child{margin-left: 125px;}
+    .process:first-child{margin-left: 10px;}
+    .process h3{padding-bottom: 5px; font-size: 100%;}
+    .agreement img{width: 80%;}
+    .statement{width: 20%; margin-left: 20px; ,margin-top: 0px;}
+    .statement p{margin: 0px auto; width: 200%; font-size: 80%; text-align: left;}
+    .statement h2{text-align: left; width: 150%;}
+    .download li img{width: 70%; height: 30px; }
+
+
+}
+
+
+
+
+/* ---for small phones with width range from 0px to 480 */
+@media only screen and (max-width: 480px){
+
+
+
+}
